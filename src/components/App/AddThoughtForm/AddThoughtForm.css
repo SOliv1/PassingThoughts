@@ -1,0 +1,47 @@
+.AddThoughtForm {
+  max-width: 520px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.AddThoughtForm input {
+  padding: 1.5rem;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.AddThoughtForm input[type='text'] {
+  max-width: 400px;
+  width: 100%;
+  background-color: #dc143c21;
+}
+
+.AddThoughtForm input:focus {
+  outline: solid 1px #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.AddThoughtForm input[type='text']::placeholder {
+  color: #fff;
+}
+
+.AddThoughtForm input[type='submit'] {
+  max-width: 100px;
+  background-color: #8a2be2;
+}
+
+.AddThoughtForm input[type='submit']:hover {
+  background-color: #7514dc;
+}
+
+@media (max-width:550px) {
+  .AddThoughtForm {
+    flex-direction: column;
+  }
+
+  .AddThoughtForm input[type='text'] {
+    margin-bottom: 10px;
+  }
+}
