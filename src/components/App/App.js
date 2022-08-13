@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { AddThoughtForm } from './AddThoughtForm';
-import { Thought } from './Thought';
-import { generateId, getNewExpirationTime } from './utilities';
+import './App.css'
+import { AddThoughtForm } from '../AddThoughtForm/AddThoughtForm';
+import { Thought } from '../Thought/Thought';
+import { generateId, getNewExpirationTime } from '../../utilities/utilities';
 
 const App = f => {
    const [thoughts, setThoughts] = useState([
