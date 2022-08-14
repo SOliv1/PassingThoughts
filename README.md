@@ -1,5 +1,6 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/46662ac9-3086-402a-9f2e-4ed20f5f46ea/deploy-status?branch=master)](https://app.netlify.com/sites/passing-thoughts-react/deploys)
+[![CI](https://github.com/SOliv1/PassingThoughts/actions/workflows/main.yml/badge.svg)](https://github.com/SOliv1/PassingThoughts/actions/workflows/main.yml)
 
 View the Project [here](https://passing-thoughts-react.netlify.app/)
 
