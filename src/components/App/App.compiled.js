@@ -1,5 +1,5 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
-"use strict";
+
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -8,7 +8,7 @@ exports.AddThoughtForm = AddThoughtForm;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _utilities = require("./utilities");
+var _utilities = require("../utilities/utilities");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
@@ -26,7 +26,7 @@ function AddThoughtForm(props) {
 }
 
 },{"./utilities":4,"react":undefined}],2:[function(require,module,exports){
-"use strict";
+
 
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -34,11 +34,11 @@ var _react = _interopRequireWildcard(require("react"));
 
 var _reactDom = _interopRequireDefault(require("react-dom"));
 
-var _AddThoughtForm = require("./AddThoughtForm");
+var _AddThoughtForm = require("../AddThoughtForm/AddThoughtForm");
 
-var _Thought = require("./Thought");
+var _Thought = require("../Thought/Thought");
 
-var _utilities = require("./utilities");
+var _utilities = require(".bin/utilities/utilities");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
@@ -70,6 +70,7 @@ function App() {
   }]),
       _useState2 = _slicedToArray(_useState, 2),
       thoughts = _useState2[0],
+      // eslint-disable-next-line no-unused-vars
       setThoughts = _useState2[1];
 
   return /*#__PURE__*/_react["default"].createElement("div", {
@@ -87,7 +88,7 @@ function App() {
 _reactDom["default"].render( /*#__PURE__*/_react["default"].createElement(App, null), document.getElementById('app'));
 
 },{"./AddThoughtForm":1,"./Thought":3,"./utilities":4,"react":undefined,"react-dom":undefined}],3:[function(require,module,exports){
-"use strict";
+
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -118,7 +119,7 @@ function Thought(props) {
 }
 
 },{"react":undefined}],4:[function(require,module,exports){
-"use strict";
+
 
 Object.defineProperty(exports, "__esModule", {
   value: true

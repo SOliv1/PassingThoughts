@@ -15,12 +15,11 @@
 .AddThoughtForm input[type='text'] {
   max-width: 400px;
   width: 100%;
-  background-color: #dc143c21;
+  background-color: #dc143c;
 }
 
 .AddThoughtForm input:focus {
   outline: solid 1px #fff;
-  font-family: 'Courier New', Courier, monospace;
 }
 
 .AddThoughtForm input[type='text']::placeholder {
@@ -29,11 +28,11 @@
 
 .AddThoughtForm input[type='submit'] {
   max-width: 100px;
-  background-color: #8a2be2;
+  background-color: #ff6500;
 }
 
 .AddThoughtForm input[type='submit']:hover {
-  background-color: #7514dc;
+  background-color: #dc143c;
 }
 
 @media (max-width:550px) {

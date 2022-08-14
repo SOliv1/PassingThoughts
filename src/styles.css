@@ -1,3 +1,6 @@
+html {
+    background: aquamarine;
+}
 body {
   margin: 0;
   font-size: 16pt;
@@ -7,6 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 input,
 button {

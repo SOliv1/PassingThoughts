@@ -1,3 +1,8 @@
+html {
+  background: rgb(183, 232, 249);
+ /* background: aliceblue;*/
+}
+
 body {
   margin: 0;
   font-size: 16pt;
@@ -57,6 +62,7 @@ button {
   margin-bottom: 1rem;
   border-radius: 3px;
   background-color: #eee;
+  
 }
 
 .Thought .remove-button {
